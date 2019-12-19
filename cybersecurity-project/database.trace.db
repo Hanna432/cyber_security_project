@@ -1,0 +1,28 @@
+2019-12-18 16:36:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2019-12-18 19:52:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-193]
+2019-12-18 20:00:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " DROP ALL TABLES[*];  ' "; expected "OBJECTS"; SQL statement:
+ DROP ALL TABLES;--' [42001-193]
+2019-12-18 20:02:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+INSERT INTO User VALUES (''; DROP TABLE User;--', 's') [42102-193]
+2019-12-18 20:05:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+INSERT INTO User VALUES (''; DROP TABLE User;--', 's') [42102-193]
+2019-12-18 20:07:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+SELECT * FROM User WHERE username = 'a' [42102-193]
+2019-12-18 20:08:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement " DROP ALL TABLES[*];  ' "; expected "OBJECTS"; SQL statement:
+ DROP ALL TABLES;--' [42001-193]
+2019-12-18 20:20:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+INSERT INTO User VALUES (''; DROP TABLE User;--', 's') [42102-193]
+2019-12-18 20:25:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+INSERT INTO User VALUES (''; DROP TABLE User;--', 's') [42102-193]
+2019-12-19 22:29:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+INSERT INTO User VALUES (''; DROP TABLE User;--', 's') [42102-193]
